@@ -1,0 +1,35 @@
+@media (max-width:786px){
+    .hero{
+        flex-direction: column;
+        gap: 35px;
+    }
+    .hero_imgage{
+        display: flex;
+        justify-content: center;
+    }
+    .hero_imgage img{
+        width: 80%;
+    }
+    .hero_content{
+        gap:10px;
+        padding:10px;
+    }
+    .hero_content h2{
+        font-size: 32px;
+    }
+    .features{
+        flex-direction: column;
+    }
+    .feature{
+        flex-direction: column;
+    }
+    .grid{
+        padding: 10px;
+    }
+    .grid_imge{
+        border-radius: 0;
+    }
+    .footer_container{
+        flex-direction: column;
+    }
+}
